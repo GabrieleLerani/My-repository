@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoispw.TutorialController">
+    <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="112.0" prefWidth="850.0" spacing="45.0">
+         <children>
+            <VBox alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="83.0">
+               <children>
+                  <Button fx:id="goBackButton" mnemonicParsing="false" onAction="#goBack" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="31.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_back_to_32px_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <Separator prefHeight="0.0" prefWidth="165.0" />
+            <Label fx:id="settingslabel" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Tutorial">
+               <font>
+                  <Font name="Century Gothic" size="48.0" />
+               </font>
+            </Label>
+            <Separator prefHeight="0.0" prefWidth="165.0" />
+         </children>
+      </HBox>
+      <HBox fx:id="h1" alignment="CENTER" layoutX="100.0" layoutY="108.0" prefHeight="450.0" prefWidth="650.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="backImage" mnemonicParsing="false" onAction="#changePreviousImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fx:id="view" fitHeight="382.0" fitWidth="510.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/ImmagineHome.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="nextImage" mnemonicParsing="false" onAction="#changeNextImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="h2" alignment="CENTER" layoutX="100.0" layoutY="108.0" opacity="0.0" prefHeight="450.0" prefWidth="650.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="backImage2" mnemonicParsing="false" onAction="#changePreviousImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fx:id="view2" fitHeight="382.0" fitWidth="510.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/ImmagineAp.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="nextImage2" mnemonicParsing="false" onAction="#changeNextImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="h3" alignment="CENTER" layoutX="100.0" layoutY="108.0" opacity="0.0" prefHeight="450.0" prefWidth="650.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="backImage21" mnemonicParsing="false" onAction="#changePreviousImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fx:id="view21" fitHeight="382.0" fitWidth="510.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/ImmagineSearch.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="nextImage21" mnemonicParsing="false" onAction="#changeNextImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="h4" alignment="CENTER" layoutX="100.0" layoutY="108.0" opacity="0.0" prefHeight="450.0" prefWidth="650.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="backImage211" mnemonicParsing="false" onAction="#changePreviousImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fx:id="view211" fitHeight="382.0" fitWidth="510.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/ImmaginePlan.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="nextImage211" mnemonicParsing="false" onAction="#changeNextImage" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons8_next_page_50px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Text fx:id="t1" layoutX="160.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is the home from here you can access the main features of the application" wrappingWidth="553.1302490234375">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="t2" layoutX="160.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Here you can set your preferences and any allergies. These will be considered as a filter for your recipes" visible="false" wrappingWidth="553.1302490234374">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="t3" layoutX="160.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The plan available only for subscribers allows a correct management of meals for the whole week" visible="false" wrappingWidth="553.1302490234373">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="t4" layoutX="160.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recipes can be searched on the basis of 4 filters and the previously selected food preferences" visible="false" wrappingWidth="553.1302490234375">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Text>
+    </children>
+</Pane>
